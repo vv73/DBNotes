@@ -15,11 +15,14 @@
       android:text="@string/add"
       android:onClick="addNote"
       />
+
   <EditText
       android:id="@+id/note"
-      android:layout_toLeftOf="@id/add"
       android:layout_width="match_parent"
-      android:layout_height="wrap_content" />
+      android:layout_height="wrap_content"
+      android:layout_alignParentTop="true"
+      android:layout_marginRight="0dp"
+      android:layout_toLeftOf="@id/add" />
   <ListView
       android:id="@+id/list"
       android:layout_width="match_parent"
